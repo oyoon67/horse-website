@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>All About Horses | Wild & Free</title>
+<style>
+:root{--green:#19392c;--light:#f7f3e8;--tan:#d8c39d;--brown:#76543b;--text:#29382f}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--light);color:var(--text);font-family:Georgia,serif;line-height:1.7}
+nav{position:fixed;top:0;width:100%;z-index:5;background:rgba(25,57,44,.96);padding:17px 7%;display:flex;justify-content:space-between;align-items:center;color:white}
+.logo{font-weight:bold;letter-spacing:1px;font-size:1.25rem}nav a{color:white;text-decoration:none;margin-left:24px;font:14px Arial,sans-serif}nav a:hover{color:var(--tan)}
+.hero{min-height:88vh;padding:150px 8% 90px;display:flex;align-items:center;position:relative;overflow:hidden;color:white;background:linear-gradient(120deg,#173b2d,#526c50 60%,#9a8660)}
+.hero-content{max-width:700px;position:relative;z-index:2}.tag{font:700 12px Arial,sans-serif;letter-spacing:4px;text-transform:uppercase;color:#e1d1ad}
+h1{font-size:clamp(3.5rem,8vw,6.5rem);line-height:.95;margin:18px 0}.hero p{font-size:1.2rem;max-width:620px}
+.btn{display:inline-block;margin-top:25px;padding:12px 22px;border:1px solid #e1d1ad;border-radius:30px;color:white;text-decoration:none;font:600 14px Arial,sans-serif}
+.btn:hover{background:#e1d1ad;color:var(--green)}
+.big-horse{position:absolute;right:7%;bottom:3%;font-size:clamp(9rem,25vw,22rem);opacity:.9}
+section{padding:85px 8%}.intro{max-width:800px;margin:auto;text-align:center}.intro h2,h2{font-size:clamp(2.2rem,4vw,3.6rem);line-height:1.1;color:var(--green);margin:8px 0 15px}
+.cards{max-width:1100px;margin:45px auto 0;display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{background:white;padding:30px;border-radius:18px;box-shadow:0 10px 28px #19392c12}.icon{font-size:2.7rem}.card h3{font-size:1.45rem;color:var(--green);margin:10px 0}
+.traits{background:#e9e5d9}.trait-grid{max-width:1100px;margin:40px auto 0;display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.trait{background:white;border-radius:16px;padding:24px;display:flex;gap:18px;align-items:flex-start}.trait strong{display:block;color:var(--green);font-size:1.2rem}.trait span{font-size:2rem}
+.fact-box{max-width:950px;margin:40px auto 0;background:var(--green);color:white;border-radius:22px;padding:35px}.fact-box h3{font-size:1.8rem;margin-top:0;color:#e1d1ad}
+.breeds{max-width:1100px;margin:40px auto 0;display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.breed{text-align:center;background:white;padding:25px 12px;border-radius:16px}.breed div{font-size:3rem}.breed h3{margin:8px 0;color:var(--green)}.breed small{font-family:Arial,sans-serif;color:#667466}
+.care{background:#dfe6d8}.care-list{max-width:900px;margin:35px auto;display:grid;grid-template-columns:repeat(2,1fr);gap:15px}.care-item{background:white;padding:22px;border-radius:14px}.care-item b{color:var(--green)}
+footer{background:#10261e;color:#dce6dd;text-align:center;padding:45px}.footer-logo{font-size:1.3rem;font-weight:bold}footer p{font:13px Arial,sans-serif}
+@media(max-width:800px){nav .links{display:none}.hero{padding:130px 7% 90px}.big-horse{opacity:.22;right:-5%}.cards,.trait-grid,.breeds,.care-list{grid-template-columns:1fr}section{padding:65px 7%}}
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo">🐴 WILD & FREE</div>
+  <div class="links">
+    <a href="#about">About Horses</a><a href="#personality">Personality</a><a href="#breeds">Breeds</a><a href="#care">Care</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-content">
+    <div class="tag">The wonderful world of horses</div>
+    <h1>Meet the<br><em>horse.</em></h1>
+    <p>Horses are intelligent, social, sensitive animals. They can be gentle and curious, energetic and playful, and they form strong relationships with people and other horses.</p>
+    <a class="btn" href="#about">Learn about horses ↓</a>
+  </div>
+  <div class="big-horse">🐎</div>
+</header>
+
+<section id="about">
+  <div class="intro">
+    <div class="tag" style="color:#71846d">All about horses</div>
+    <h2>What are horses like?</h2>
+    <p>Horses are large mammals that have lived alongside humans for thousands of years. They are herd animals, which means they naturally enjoy company. They communicate using sounds, body language, facial expressions, and movement.</p>
+  </div>
+  <div class="cards">
+    <article class="card"><div class="icon">🧠</div><h3>Intelligent</h3><p>Horses can learn routines, recognize familiar people, remember experiences, and respond to training based on clear and kind communication.</p></article>
+    <article class="card"><div class="icon">❤️</div><h3>Social</h3><p>They often feel comfortable around other horses and can build bonds with people. Friendship and trust are important parts of their lives.</p></article>
+    <article class="card"><div class="icon">👀</div><h3>Very Aware</h3><p>Horses are naturally alert. Their senses help them notice changes around them, so calm surroundings and gentle handling matter.</p></article>
+  </div>
+</section>
+
+<section id="personality" class="traits">
+  <div class="intro">
+    <div class="tag" style="color:#71846d">Horse personality</div>
+    <h2>Every horse is different.</h2>
+    <p>Just like people, individual horses can have different personalities. One may be calm and quiet while another is playful and full of energy.</p>
+  </div>
+  <div class="trait-grid">
+    <div class="trait"><span>🌿</span><div><strong>Gentle</strong>Many horses can be calm and affectionate when they feel safe and comfortable.</div></div>
+    <div class="trait"><span>✨</span><div><strong>Curious</strong>Horses often investigate new sights, sounds, and objects in their environment.</div></div>
+    <div class="trait"><span>⚡</span><div><strong>Energetic</strong>They naturally enjoy moving, running, playing, and exploring open spaces.</div></div>
+    <div class="trait"><span>🤝</span><div><strong>Trusting</strong>With patient, respectful handling, horses can learn to feel secure around people.</div></div>
+  </div>
+  <div class="fact-box">
+    <h3>🐴 How do horses communicate?</h3>
+    <p>They use their ears, eyes, head position, tail, posture, sounds, and movement. For example, their ears can help show where their attention is focused. Learning to notice these signals is an important part of understanding horses.</p>
+  </div>
+</section>
+
+<section id="breeds">
+  <div class="intro">
+    <div class="tag" style="color:#71846d">Horse breeds</div>
+    <h2>Different horses, different qualities.</h2>
+    <p>There are many horse breeds around the world. Breeds can differ in size, appearance, history, temperament, and the activities they are commonly associated with.</p>
+  </div>
+  <div class="breeds">
+    <div class="breed"><div>🐎</div><h3>Arabian</h3><small>Known for endurance and elegance</small></div>
+    <div class="breed"><div>🏇</div><h3>Thoroughbred</h3><small>Known for speed and athleticism</small></div>
+    <div class="breed"><div>🐴</div><h3>Friesian</h3><small>Known for a striking appearance</small></div>
+    <div class="breed"><div>🦄</div><h3>Appaloosa</h3><small>Known for its distinctive coat patterns</small></div>
+  </div>
+</section>
+
+<section id="care" class="care">
+  <div class="intro">
+    <div class="tag" style="color:#71846d">Taking care of horses</div>
+    <h2>What do horses need?</h2>
+    <p>Good horse care means meeting their physical, social, and emotional needs every day.</p>
+  </div>
+  <div class="care-list">
+    <div class="care-item"><b>🥕 Food & water</b><br>Horses need appropriate nutrition and constant access to clean water.</div>
+    <div class="care-item"><b>🌳 Space & movement</b><br>Safe opportunities to move and explore are important for their wellbeing.</div>
+    <div class="care-item"><b>🧹 Grooming</b><br>Regular grooming helps keep a horse clean and gives handlers a chance to notice changes.</div>
+    <div class="care-item"><b>🩺 Health care</b><br>Veterinary, dental, hoof, and other routine care help keep horses healthy.</div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-logo">🐴 WILD & FREE</div>
+  <p>Learning about horses • Respecting animals • Loving nature</p>
+  <p>© <span id="year"></span> Wild & Free</p>
+</footer>
+<script>document.getElementById("year").textContent=new Date().getFullYear();</script>
+</body>
+</html>
